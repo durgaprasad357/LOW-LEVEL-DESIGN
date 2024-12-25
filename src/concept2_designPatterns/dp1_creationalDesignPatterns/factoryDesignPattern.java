@@ -47,7 +47,7 @@ class ShapeInstanceFactory {
     }
 }
 
-public class factoryDesignPattern {
+public class FactoryDesignPattern {
     public static void main(String[] args) {
         ShapeInstanceFactory factoryObj = new ShapeInstanceFactory();
 

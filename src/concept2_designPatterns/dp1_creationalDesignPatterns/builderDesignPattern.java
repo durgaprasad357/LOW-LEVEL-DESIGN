@@ -129,7 +129,7 @@ class Student {
     }
 }
 
-public class builderDesignPattern {
+public class BuilderDesignPattern {
     public static void main(String[] args) {
         Director directorObj1 = new Director(new EngineeringStudent());
         Student engineeringStudent = directorObj1.createEngineeringStudent();

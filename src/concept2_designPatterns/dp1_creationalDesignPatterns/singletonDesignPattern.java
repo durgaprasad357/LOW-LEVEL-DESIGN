@@ -98,7 +98,7 @@ class Db4Connection{
     }
 }
 
-public class singletonDesignPattern {
+public class SingletonDesignPattern {
     public static void main(String[] args) {
         Db1Connection dbConObj1 = Db1Connection.getInstance();
         dbConObj1.check();

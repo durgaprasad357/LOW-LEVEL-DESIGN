@@ -24,7 +24,7 @@ class Student {
     }
 }
 
-public class prototypeDesignPattern {
+public class PrototypeDesignPattern {
     public static void main(String[] args) {
         Student baseObj = new Student(21, 1, "Prasad");
         baseObj.getStudentInfo();
@@ -79,7 +79,7 @@ class Student implements Prototype {
     }
 }
 
-public class prototypeDesignPattern {
+public class PrototypeDesignPattern {
     public static void main(String[] args) {
         Student baseObj = new Student("Prasad", 21, 1);
         System.out.println("baseObj Info: ");

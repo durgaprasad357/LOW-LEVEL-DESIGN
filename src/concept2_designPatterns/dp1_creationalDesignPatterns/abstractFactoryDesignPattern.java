@@ -90,7 +90,7 @@ class AbstractFactoryProducer {
     }
 }
 
-public class abstractFactoryDesignPattern {
+public class AbstractFactoryDesignPattern {
     public static void main(String[] args) {
         AbstractFactoryProducer abstractFactoryProducerObj = new AbstractFactoryProducer();
 
