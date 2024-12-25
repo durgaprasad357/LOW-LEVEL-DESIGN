@@ -3,7 +3,6 @@
         A class should be open for extension but closed for modification.
 */
 
-
 /*
 class Marker {
     String name;
@@ -101,7 +100,6 @@ public class P2_OpenClosedPrinciple {
 }
 */
 
-
 /*
     In the above code, the InvoiceSaver class was violating the Open/Closed Principle (OCP).
     Initially, the InvoiceSaver class had a `save()` method to save invoices to the database. However, if we needed to add a new way of saving invoices (e.g., to a file), we would have to modify the `InvoiceSaver` class, which violates OCP.
@@ -113,7 +111,6 @@ public class P2_OpenClosedPrinciple {
     This approach keeps the `InvoiceSaver` class open for extension (we can add new ways of saving invoices) but closed for modification (we don't need to modify the existing classes to add new functionality).
 */
 
-/*
 import helperInterfaces.InvoiceSaver;
 
 class Marker {
@@ -225,4 +222,3 @@ public class P2_OpenClosedPrinciple {
         saveInvoiceFile.save();
     }
 }
-*/
